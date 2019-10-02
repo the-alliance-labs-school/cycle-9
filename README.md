@@ -1,2 +1,15 @@
-# cycle-9
-Repository for assignments completed by the 9th cycle of Zombie Chase
+# Zombie Chase - Cycle 9
+
+## Assignments
+
+| Week | Assignment | Link to Full Instructions |
+| Week 1 | First Assignment |  [Assignment 1](./blob/master/Zombie-Chase-Assignments/week-1.md) |
+| Week 2 | HTML Reference Guide | To Be Announced |
+| Week 3 | CSS External Stylesheet | To Be Announced |
+| week 4 | Spacing & Sizing in CSS | To Be Announced |
+| week 5 | Basic Layout Styling with HTML and CSS | To Be Announced |
+| week 6 | Introduction to Bootstrap | To Be Announced |
+| week 7 | Bootstrap Components | To Be Announced |
+| week 8 | Personal Project Preview | N/A |
+
+
