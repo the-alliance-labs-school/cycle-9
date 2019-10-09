@@ -1,30 +1,43 @@
 DOM= Document Object Model and example of a model is HTML
 <!DOCTYPE html>
 declaration that provides a browser instructions
-<html>
+
+<html><html>
 Everything in the HTML document must within this two brackets
-<head> 
+
+<head></head> 
 Not visible but contains information of the page
+
 <meta charset="UTF-8">
 Declaration of character encoding
+
 <title>Title of the document</title>
 Name of page that is visible on tab 
-</head>
-<header><header>
-Above body 
-<body>
+
+<header></header>
+Above body visible
+
+<body></body>
 Visible content of the document......
 Within the document tags are included 
+
 <p></p>
 paragraph divider
+
 <span> </span>
 In line styling
+
 <a href="" target=_blank> Link Name</a>
 Creates a Hyperlink 
+
 <img src="" alt= height="" weight=""
 insert an image with formating of size
 alt= is required for accessibility and alternate to image not loading 
+
 <div></div> container boxes
-</body>
-<footer><footer>
-</html>
+
+<em></em> italic
+
+<strong></strong> Bold
+
+<footer><footer>  Includes corporation/ Copyright/published info
