@@ -1,0 +1,13 @@
+h1 {
+color: green;
+}
+.text {
+	font-family: sans-serif;
+	font-size: 20px;
+	list-style: none;
+}
+.list {
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 20px;
+}

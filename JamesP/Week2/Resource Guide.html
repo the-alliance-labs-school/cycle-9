@@ -1,9 +1,103 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
 <body>
+<div class="list">
+<h1>Resource Guide to HTML</h1>
+<p>What we'll cover is </p>
+<ul>
+	<li>HTML</li>
+	<li>Elements</li>
+	<li>Attributes</li>
+	<li>p</li>
+	<li>Headings</li>
+	<li>a and href</li>
+	<li>br</li>
+	<li>ul and ol</li>
+	<li>span</li>
+	<li>img src</li>
+	<li>div</li>
+	<li>strong</li>
+	<li>em</li>
+	<li>HTTP and HTTPS</li>
+	<li>DOM</li>
+	<li>CSS</li>
+</ul>
+</div>
+<div class="text">
+<h3>HTML</h3>
+<p>HTML stands for Hyper Text Markup Language,HTML is used to create webpages and for users to see on their phones, laptops, and Desktops. HTML pages contain HTML tags which usually have an opening part < > and a closing part < / >.</p>
+<h2>Elements</h2>
+<p>An HTML element is everything from the start tag to the end tag for example. < p > I am typing this to you < / p ><br>
+	< p > <-- is the  start tag and < / p > <-- is the end tag. Those two together make up one element.
+</p>
+<h2>Attributes</h2>
+<p>Elements in HTML have attributes; these are additional values that configure the elements or adjust their behavior in various ways to meet the criteria the users want.
+</p>
+</div>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<div class="text">
+	<p>The <em>< p ></em> tag defines a paragraph.</p><br>
+	<p>The h1 - h6 tags are used as headers for HTML pages. The lower the number the smaller the header.</p>
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+		<br>
+	<h3>Links</h3>
+		<p>HTML links are defined with an < a > tag <br>< a href="url">link text< / a > <-- this is a link example</p>
+		<br>
+		<h3>Line Breaks</h3>
+		<p>Line breaks are created using a br tag. This tag causes a new line to be created on the webpage</p>
+		<p>In this sentence I will create a line break to start a new line<br>My new line starts because of the line break that I used.</p>
+		<br>
+	<h3>Lists</h3>
+		<p>The two types of list are ordered and unordered</p><br>
+		<h4>Ordered List</h4>
+		<ol>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ol>
+
+		<h4>Unordered List</h4>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ul>
+		<br>
+		<h3>Span</h3>
+			<p>The span tag is used to style or edit inline elements. You can use it to change a very specific part of a paragraph without <span style="color:red">affecting</span> other parts of the paragraph. I was able to change the color of the word 'affecting" without using changing the color of the other words in the paragraph because I used the span tag </p><br>
+
+		<h3>Images</h3>
+			<p>In HTML, images are defined with the < img > tag, which allows for the insertion of images by providing the images file location</p><br>
+			<p>Example</p><br>
+			<img src = "Images/Michiko.jpg" alt="Michiko Picture" height="100" width="200" >
+			<br>
+		<h3>Div</h3>
+			<p>div tags allow for the seperation of code within an HTML page. You can use div tags to seperate tags and elements from being affected by styles that are used in the rest of the page by using div tags</p>
+		<br>
+		<h3><strong>Strong</strong></h3>
+			<p>The strong tag makes the text appear in bold like in the example above</p><br>
+		<h3><em>Italics</em></h3>
+			<p>The em tag makes text appear in the italics style like in the example above</p><br>
+</div>
+	<div class ="text">
+		<h3>Security</h3>
+			<p>HTTP and HTTPS are both hyper text transfer protocols. HTTPS however is a more secure version of HTTP and is typicallly used for websites that contain extremely sensitive information, banking information, SSN, and so on</p><br>
+		<h3>DOM</h3>
+			<p>DOM stands for Document Object Model and connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page. This is what allows the user to see the html pages being displayed.</p><br>
+		<h3>CSS</h3>
+		<p>CSS stands for Cascading Style Sheets. CSS is used to style html pages. You can add the styles directly into the HTML page or you can add a folder that contains it.</p>
+	</div>
+
 
 </body>
 </html>
