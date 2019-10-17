@@ -1,0 +1,67 @@
+h1 {
+ color: white;
+ font-family: Colibri;
+ font-size: 40px;
+ text-align: center;
+ font-style: oblique;
+}
+
+body {
+  background-color: #008080;
+}
+
+.list {
+  font-style: Colibri;
+  border: 2px solid #3EDEA9;
+  padding: 25px;
+  font-size: 18px;
+}
+.animatedBox {
+  aligned:center
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  font: 24px Time New Roman;
+  color: white;
+  background: yellowgreen;
+  border: 0px solid darkgreen;
+  animation: myAnimation 6s linear 1s 1 forwards;
+}
+
+@keyframes myAnimation {
+  50% {
+    border: 60px solid orange;
+  }	
+}
+
+.text{
+  padding:25px;
+  font: Colibri;
+  
+}
+  
+
+.Headings{
+  color:white;
+  text-align: center;
+}
+
+div.bounce {
+  width: 50%;
+  padding: 10px;
+  background: orangered;
+  position: relative;
+  animation: bounce 2s ease-in 2s 6 alternate none;
+  font-size: 30px;
+  text-align: center;
+}
+@keyframes bounce {
+	from {
+	  top: 5%;
+	  left: 10%;
+	  }
+	to {
+	  top: 20%;
+	  left: 80%;
+  }
+  
