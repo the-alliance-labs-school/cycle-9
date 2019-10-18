@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(113, 197, 230, 0.472);
+}
+title{text-align: center;}
+header{
+       color:rgb(2, 0, 0);}
+.diva{text-align: center;
+background-blend-mode: darken;
+background-color: thistle;}
+div.scrollmenu{
+    background-color: rgb(36, 192, 240);
+    overflow-inline:hidden;
+    white-space: nowrap;
+
+   }
+div.scrollmenu a {
+    display: inline;
+    color: white;
+    text-align:center;
+    padding: 5px;
+    text-decoration: none;
+    }  
+div.scrollmenu a:hover{background-color: #777;}
+
+
+.div1{
+    background-color: rgba(166, 134, 202, 0.719);
+}
+.div2{
+    background-color: rgb(131, 190, 209);}
+.div3{
+    background-color: whitesmoke;}
+.div4{background-color: rgba(166, 134, 202, 0.719);}
+.div5{
+    background-color: rgb(131, 190, 209);}
+.div6{
+    background-color: whitesmoke;}
+.div7{background-color: rgba(166, 134, 202, 0.719);}
+.div8{
+    background-color: rgb(131, 190, 209);}
+.div9{
+    background-color: whitesmoke;}
