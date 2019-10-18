@@ -1,8 +1,4 @@
 
-.headings{
-	color: #333FFF;
-}
-
 }
 .text {
 	font-family:sans-serif;
@@ -11,14 +7,14 @@
 	text-align: left;
 }
 h3 {
-	color: #333FFF;
+	color: #390116;
 }
 
 ul{
 	list-style: none;
 }
 body {
-	background-color: #33FFE0;
+	background-color: #F3FAF9;
 	opacity: 2.0;
 }
 img {
@@ -36,4 +32,7 @@ img {
 
 .ul1{
 	text-align:left;
+}
+span{
+	color: #028C4B;
 }
