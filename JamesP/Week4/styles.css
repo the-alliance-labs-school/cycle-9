@@ -4,12 +4,15 @@
 	list-style: none;
 	text-align: left;
 }
+ p {
+ 	
+ }
 
 h3 {
 	color: #B45C7D;
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
