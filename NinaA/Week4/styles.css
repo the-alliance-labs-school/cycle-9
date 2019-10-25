@@ -31,12 +31,8 @@ div.scrollmenu{
     margin:30px 40px 30px 40px;
     padding:10px 10px 5px;
     border: 23px solid ;
-    border-color: dimgray;
-    font-family: cursive;
-    font-size: 175%;
-    font-style: oblique;
+    border-color: dimgray; 
     font-weight: bolder;
-
 }
 div.scrollmenu a{
     display: inline-block;
@@ -51,44 +47,53 @@ div.scrollmenu a:hover{
     background-color: rgba(166, 134, 202, 0.719);
     margin:30px 70px;
     padding:40px 60px;
+    border-style: double;
     }
 .div2{
     background-color: rgb(131, 190, 209);
     margin:30px 70px;
     padding:40px 60px;
+    border-style: double;
 }
 .div3{
     background-color: whitesmoke;
     margin:30px 70px;
     padding:40px 60px;
+    border-style: double;
 }
 .div4{
     background-color: rgba(166, 134, 202, 0.719);
     margin:30px 70px;
     padding:40px 60px;
+    border-style: double;
 }
 .div5{
     background-color: rgb(131, 190, 209);
     margin:30px 70px;
     padding:40px 60px;
+    border-style: double;
 }
 .div6{
     background-color: whitesmoke;
     margin:30px 70px;
     padding:40px 60px;
+    border-style: double;
 }
 .div7{
     background-color: rgba(166, 134, 202, 0.719);
     margin:30px 70px;
     padding:40px 60px;
+    border-style: double;
 }
 .div8{
     background-color: rgb(131, 190, 209);
     margin:30px 70px;
     padding:40px 60px;
+    border-style: double;
 }
 .div9{
     background-color: whitesmoke;
     margin:30px 70px;
     padding:40px 60px;
+    border-style: double;
 }
