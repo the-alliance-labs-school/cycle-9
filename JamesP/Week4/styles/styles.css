@@ -3,9 +3,35 @@
 	font-size: 20px;
 	list-style: none;
 	text-align: left;
-	border: 3px solid black;
 	margin-bottom: 20px;
-	
+	text-align: left;
+}
+
+
+.sidenav {
+	text-align: center;
+	background-color: #E4F5F5;
+	height: 100%;
+	width:160px;
+	position:fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #F3FAF9;
+	overflow-x: hidden;
+	padding:20px;
+	font-size: 25px;
+}
+
+.sidenav a {
+	padding:1px 2px 1px 2px;
+	text-decoration: none;
+	color: #154D4D;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #D4EBEB;
 }
 
 .info {
@@ -13,10 +39,11 @@
 	font-size: 20px;
 	list-style: none;
 	text-align: left;
-	border: 3px solid purple;
+	border: 20px solid purple;
 	margin-bottom: 15px;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-left:200px;
+	overflow-x: hidden;
+	padding-left: 25px;
 }
 
 .security {
@@ -27,22 +54,19 @@
 	border: 15px solid red;
 	margin-bottom: 20px;
 	padding-left: 20px;
-	padding-right: 20px;
+	margin-left: 200px;
 }
 
 .heading {
 	text-align: center;
+
 }
 
-.headingstyle {
-	border: 3px solid black;
-	text-align: center;
-	background-color: white;
-}
 
-h3 {
+.h1 {
 	color: #B45C7D;
 }
+
 
 ul {
 	list-style: none;
