@@ -1,26 +1,23 @@
-
-.headings{
-	color: #333FFF;
-}
-
-}
 .text {
 	font-family:sans-serif;
 	font-size: 20px;
 	list-style: none;
 	text-align: left;
 }
+
 h3 {
-	color: #333FFF;
+	color: #B45C7D;
 }
 
 ul{
 	list-style: none;
 }
+
 body {
-	background-color: #33FFE0;
+	background-color: #F3FAF9;
 	opacity: 2.0;
 }
+
 img {
 	display: block;
 	margin-left:auto;
@@ -30,10 +27,7 @@ img {
 	border-radius:10px;
 }
 
-.ol1{
-	text-align:left;
 }
-
-.ul1{
-	text-align:left;
+span {
+	color: #028C4B;
 }
