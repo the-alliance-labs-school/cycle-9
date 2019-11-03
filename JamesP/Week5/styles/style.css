@@ -1,0 +1,45 @@
+
+ *{
+  box-sizing: border-box;
+}
+
+
+
+.header {
+ background-color: #f1f1f1;
+  text-align: center;
+  padding:3px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  padding: 100px;
+}
+.column.sides {
+  width: 25%;
+
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: grid;
+  clear: both;
+  padding: 5px;
+}
+.footer {
+   background-color: #f1f1f1;
+  text-align: center;
+  padding:3px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
