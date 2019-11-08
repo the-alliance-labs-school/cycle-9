@@ -61,7 +61,9 @@
     color: #e6ebf0;
     text-align: left;
     background-color: rgb(29, 129, 96);
-    background-image:url(images/med.png); }
+    background-image:url(images/med.png); 
+    border:goldenrod;}
+    
   
   [tabindex="-1"]:focus {
     outline: 0 !important;
