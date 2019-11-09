@@ -17,17 +17,30 @@
 .list {
 	list-style: none;
 	float: 	left;
-	padding: 	12px;
-	height: 15%;
+	padding: 12px;
+	width: auto;
+	text-decoration-style: none;
 }
 .border {
 	border: 1px solid black;
 	height: auto;
 }
-.sidenave:a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
+.navbar a {
+  float: left;
+  padding: 6px 12px;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+.navbar a.active {
+  background-color: #A6A5A5;
+}
+
+.center {
+	margin-left:10px;
+	align-content: left;
 }
