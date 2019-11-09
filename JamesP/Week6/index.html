@@ -4,52 +4,38 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  
 </head>
 <body>
 
 <div class="jumbotron text-center">
-  <h1>James Palmers First Bootstrap Page</h1>
-  <p>I will be adding additional customizations on this page as I continue playing around with it</p> 
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
 </div>
-  
+  <div class="navbar">
+  <a class="active" href="#">Home</a> 
+  <a href="#">Search</a> 
+  <a href="#">Contact</a> 
+  <a href="#">Login</a>
+</div> 
 <div class="container">
   <div class="row">
-		   <div class="col-sm-4">
-		    <div class="leftcolumn">
-		    	<div class="text">
-		      <h3>Column 1</h3>
-		      <div class="navbar">
-		      <ul class="list">
-		      	<li><a class="active" href="#">Home</a></li>
-		      	<li><a href="#">About</a></li>
-		      	<li><a href="#">Sign Up</a></li>
-		      	<li><a href="#">Contact</a></li>
-		      	<li><a href="#">Column</a></li>
-		      </ul>
-		  </div>
-  		</div>
-  	</div>
-   </div>
-    <div class="col-sm-4">
-    	<div class="center">
+    <div class="col-sm-6">
       <h3>Column 2</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-  </div>
     </div>
-
-    <div class="col-sm-4">
+    <div class="col-sm-6">
       <h3>Column 3</h3>        
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
   </div>
 </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
