@@ -97,6 +97,32 @@ font-style: italic;
 font-family: oblique;
 text-align: center;
 }
+
+.button {
+  background-color: gold;
+  border-radius: 25px;
+}
+#mybutton:hover {
+  background-color: gray;
+}
+
+#mybutton {
+display: none;
+position: fixed;
+bottom:10px;
+align-content: right;
+right: 30px;
+z-index: 99;
+font-size: 18px;
+border:none;
+outline: none;
+background-color: gold;
+color: white;
+cursor:ponter;
+padding:10px;
+border-radius: 25px;
+
+}
 /* Footer */
 .footer {
  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Mask.jpg");

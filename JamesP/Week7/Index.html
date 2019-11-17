@@ -11,6 +11,7 @@
   <h1>ChillHop</h1>
   </div>
 </div>
+<button onclick="topFunction()" id="mybutton" title="Go to top">Top</button>
 <div class="row">
   <!-- left column begins here-->
   <div class="leftcolumn">
@@ -63,6 +64,24 @@
 
 <div class="footer">
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script>
+  window.onscroll= function() {scrollFunction()};
 
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("mybutton").style.display= "block";
+    } else {
+      document.getElementById("mybutton").style.display = "none";
+    }
+  }
+
+  //go to top of the page when clicked on
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 </body>
 </html>
