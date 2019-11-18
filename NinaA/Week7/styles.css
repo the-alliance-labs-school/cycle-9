@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  
 }
 
 abbr[title],
@@ -156,7 +157,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #00a2ff;
   text-decoration: none;
   background-color: transparent;
 }
