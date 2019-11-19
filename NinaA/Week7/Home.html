@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title> Hello</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i;
+          input = document.getElementById("mySearch");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myMenu");
+          li = ul.getElementsByTagName("li");
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+ <style>
+ /* Style the search box */
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the navigation menu */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the navigation links */
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  }
+ </style>
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><logo> <img src="images/chica.jpg" alt="chica" height="50" width="50">Nina's One Stop Shop </logo></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Home.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contacts.html">CheckOut</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+        <div>
+<br>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a href="index.html"><h4>Smoke-ables</h4></a></li>
+  <li><a href="Edibles.html"><h4>Edibles</h4></a></li>
+  <li><a href="Concentrates.html"><h4>Concentrates</h4></a></li>
+  <li><a href="Hash.html"><h4>Hash</h4></a></li>
+</ul>
+<div class="card card-outline-secondary my-4">
+        <div class="card-header">
+                Welcome to Nina's One Stop Shop!
+        </div>
+        <div class="card-body">
+          <p>This is the start of great friendship........</p>
+       
+
+          <p>The name says it all Nina's One Stop Shop has it all from your Indica, Sativa to your Hibrida's. This product is amazing no matter what option you go for.
+          I would recommend chatting with customer service if this is your first time or you're new to the so many options THC has to offer. Delivery was prompt and packing was adorbs!! :)
+          </p>
+         
+          <a href="#" class="btn btn-success">Leave a Review</a>
+        </div>
+      </div>
+      <!-- /.card -->
+          </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Nina's One Stop Shop 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
